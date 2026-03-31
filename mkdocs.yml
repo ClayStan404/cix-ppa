@@ -1,0 +1,59 @@
+site_name: CIX PPA Documentation
+site_description: Official bilingual user manual for the CIX PPA repository
+site_url: !ENV [SITE_URL, ""]
+strict: true
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+
+extra:
+  alternate:
+    - name: English
+      link: !ENV [SITE_EN_URL, "/en/"]
+      lang: en
+    - name: 简体中文
+      link: !ENV [SITE_ZH_URL, "/zh/"]
+      lang: zh
+
+nav:
+  - Home: index.md
+  - English:
+      - Overview: en/index.md
+      - Benefits of PPA: en/benefits.md
+      - System Requirements: en/system-requirements.md
+      - Install Debian 13 GNOME Desktop: en/install-debian.md
+      - Configure with cix-repo-community.sh: en/setup-script.md
+      - Script Framework and Workflow: en/script-framework.md
+      - Driver Packages Details: en/driver-packages.md
+      - Daily Usage and Maintenance: en/daily-usage.md
+      - Troubleshooting: en/troubleshooting.md
+      - Appendix: en/appendix.md
+  - 中文:
+      - 概览: zh/index.md
+      - PPA 的优势: zh/benefits.md
+      - 系统要求: zh/system-requirements.md
+      - 安装 Debian 13 GNOME 桌面: zh/install-debian.md
+      - 使用 cix-repo-community.sh 配置系统: zh/setup-script.md
+      - 脚本框架与工作流程: zh/script-framework.md
+      - 驱动包详解: zh/driver-packages.md
+      - 日常使用与维护: zh/daily-usage.md
+      - 故障排除: zh/troubleshooting.md
+      - 附录: zh/appendix.md
+
