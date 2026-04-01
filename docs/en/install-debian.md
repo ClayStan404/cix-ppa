@@ -2,13 +2,9 @@
 
 ## Download Official ISO
 
-### Recommended Mirrors (China)
+### Official Debian Download Page
 
-```
-Tsinghua University: https://mirrors.tuna.tsinghua.edu.cn/debian-cd/current/arm64
-USTC: https://mirrors.ustc.edu.cn/debian-cd/current/arm64
-Aliyun: https://mirrors.aliyun.com/debian-cd/current/arm64
-```
+<https://www.debian.org/distrib/>
 
 ### ISO File Selection
 
@@ -39,8 +35,8 @@ Using **balenaEtcher** (supports Windows/Linux/macOS):
 
 | Step | Action | Recommendation |
 |------|--------|----------------|
-| **Language/Region** | Select Chinese/China | Choose as needed |
-| **Keyboard Layout** | Select `American English` or `Chinese` | Based on actual keyboard |
+| **Language/Region** | Select preferred language and region | Choose as needed |
+| **Keyboard Layout** | Select keyboard layout | Based on actual keyboard |
 | **Network Configuration** | Configure hostname and network | DHCP recommended |
 | **User Setup** | Set username and password | **Recommended**: Leave root password blank, regular user can use sudo |
 | **Partitioning** | Select `Guided - use entire disk` | Automatic partitioning recommended |
@@ -71,4 +67,3 @@ exit
 2. Remove USB drive
 3. Enter Debian GNOME desktop
 4. Open terminal and prepare to configure CIX PPA
-

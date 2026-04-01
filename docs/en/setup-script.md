@@ -83,8 +83,8 @@ If installing the **open-source driver package (`cix-debian13-k7.0-driver-openso
 # Edit sources.list
 sudo nano /etc/apt/sources.list
 
-# Add the following line (Chinese users may prefer domestic mirrors)
-deb http://mirrors.ustc.edu.cn/debian trixie-backports main contrib non-free non-free-firmware
+# Add the following line
+deb http://deb.debian.org/debian trixie-backports main contrib non-free non-free-firmware
 ```
 
 ### Update and Install Backports Firmware
@@ -123,4 +123,3 @@ uname -r
 # Check firmware version
 dpkg -l | grep firmware-misc-nonfree
 ```
-
