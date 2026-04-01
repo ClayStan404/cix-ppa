@@ -11,9 +11,9 @@ curl -fsSL https://archive.cixtech.com/cix-repo-community.sh | sudo sh
 
 ## Documentation
 
-- [English source manual](./docs/en/index.md)
-- [中文文档源码](./docs/zh/index.md)
-- [Published site source landing page](./docs/index.md)
+- [Open the published documentation site](https://claystan404.github.io/cix-ppa/)
+- Source content in this repository:
+  [English](./docs/en/index.md) | [中文](./docs/zh/index.md) | [Site landing page](./docs/index.md)
 
 ## Work On The Docs Locally
 
@@ -25,4 +25,3 @@ mkdocs serve
 ```
 
 The GitHub Pages workflow installs the pinned Python dependencies from `requirements-docs.txt` and publishes the generated site from `site/`.
-
