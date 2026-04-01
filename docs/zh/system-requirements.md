@@ -12,6 +12,13 @@
 - [下载 `cix_flash_all_O6.bin`](https://github.com/ClayStan404/cix-ppa/raw/main/bios/cix_flash_all_O6.bin)
 - [查看仓库 `bios/` 目录](https://github.com/ClayStan404/cix-ppa/tree/main/bios)
 
+### BIOS 文件校验值
+
+- `FlashUpdate.efi`
+  MD5: `0a4b30e07c8408abd84db076ec4ab7c9`
+- `cix_flash_all_O6.bin`
+  MD5: `dd034964c999bebd37d116f2ea8eb99e`
+
 > ⚠️ **说明**：当前 BIOS 文件处于测试阶段，请先备份所有重要数据后再刷写。官方版本预计会在几天内发布。
 
 ### BIOS 刷写说明
